@@ -1,0 +1,126 @@
+body {
+    background-image: url(https://static1.bigstockphoto.com/5/0/4/large1500/405186329.jpg);
+    background-color: rgba(58, 58, 158, 0.8);
+    /* filter: blur(3px); */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    margin: 0;
+    background-blend-mode: soft-light;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 100%;
+    /* padding: 1em; */
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    background-color: #1b1b32;
+    width: 50%;
+    margin: auto;
+    padding: 1.5em;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+}
+
+input,
+select {
+    height: 40px;
+    width: 100%;
+    margin: .7em auto;
+    background-color: rgb(244, 232, 232);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 0 0 1rem;
+    /* font-size: 18px; */
+    /* padding: .6em; */
+}
+
+input[type=checkbox] {
+    width: fit-content;
+}
+
+input[type=radio] {
+    width: fit-content;
+}
+
+input[type=submit] {
+    background-color: rgba(0, 128, 0, 0.95);
+    color: white;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+textarea {
+    height: 100px;
+    width: 99%;
+    background-color: rgb(244, 232, 232);
+    border: none;
+    border-radius: 5px;
+    /* font-size: 18px; */
+    padding: .5rem;
+    margin: 1rem 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+
+/* form {
+    background-color: rgba(2, 2, 38, 0.693);
+    width: 50vw;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    border-bottom: none;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input,
+textarea {
+    background-color: #d4d4df;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+} */
